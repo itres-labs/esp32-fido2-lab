@@ -1,0 +1,12 @@
+menu "FIDO2 lab - placa"
+    choice FIDO_BOARD
+        prompt "Hardware"
+        default FIDO_BOARD_ATOMS3U
+        config FIDO_BOARD_ATOMS3U
+            bool "M5Stack AtomS3U (boton GPIO41)"
+        config FIDO_BOARD_LILYGO
+            bool "LILYGO T-Dongle-S3 (BOOT GPIO0)"
+        config FIDO_BOARD_WAVESHARE
+            bool "Waveshare ESP32-S3-GEEK (BOOT GPIO0)"
+    endchoice
+endmenu

@@ -1,0 +1,25 @@
+# ESP-IDF generated files
+build/
+build*/
+sdkconfig
+sdkconfig.old
+managed_components/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local test artefacts
+credencial-lab.json
+*.sig
+*.bin
+*.elf
+*.map
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+*~
